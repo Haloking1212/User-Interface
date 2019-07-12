@@ -64,3 +64,161 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+.header h1 {
+	font-size: 72px;
+}
+
+a:hover {
+
+	color:blue;
+}
+
+body {
+	/* text-align: center; */
+}
+
+nav a {
+
+	color:grey;
+	padding-left:80px;
+
+}
+
+.img2 {width: 50%;
+	display: flex;
+}
+
+.Features {
+	/*border: 1px solid red;*/
+	display: flex;
+	flex-direction: column;
+}
+
+.About {
+
+	/*border: 1px solid red;*/
+	display: flex;
+	/*width: 33%;*/
+	flex-direction: column;
+}
+
+.middle-img {
+	display: inline-flex;
+	flex-direction: column;
+}
+
+.Services {
+	/*border: 1px solid red;*/
+	display: inline-flex;
+	width: 33%;
+	flex-direction: column;
+}
+
+.Product {
+	/*border: 1px solid red;*/
+	display: inline-flex;
+	width: 33%;
+	flex-direction: column;
+}
+
+.Vision {
+	/*border: 1px solid red;*/
+	display: inline-flex;
+	width: 33%;
+	flex-direction: column;
+
+}
+.contact {
+	/* border: 1px solid red; */
+	display: inline-flex;
+	flex-direction: column;
+	/* text-align: left; */
+}
+
+h1 {
+	font-size: 96px;
+	width: 50%;
+}
+
+button {
+	display: inline-flex;
+	background-color: white;
+}
+
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+
+.w-50 {
+    width: 49%;
+    display: inline-flex;
+}
+
+section.top-content {
+    width: 100%;
+    padding: 5% 0;
+}
+
+header.header {
+    display: inline-flex;
+    margin: auto;
+}
+
+.header div:first-of-type {
+    width: 49%;
+    display: inline-flex;
+}
+
+header.header img {
+    width: 100%;
+}
+
+hr {
+    border-bottom: 2px solid black;
+    border:;
+}
+
+
+footer {
+	text-align: center;
+}
+
+section h4 .f {
+
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
